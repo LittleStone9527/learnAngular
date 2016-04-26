@@ -1,0 +1,20 @@
+<button class="btn btn-success" data-target="#myModal" data-toggle="modal">alert</button>
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><!--关闭按钮-->
+      <h4 class="modal-title">{{modal.title}}</h4>
+    </div>
+    <!--modal content-->
+    <div class="modal-body">{{modal.msg}}
+      <div>{{modal.templateUrl}}</div>
+    </div>
+    <!--model footer-->
+    <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+    <button type="button" class="btn btn-success" data-dismiss="modal">ok</button>
+  </div>
+</div>
+
+
+
+
